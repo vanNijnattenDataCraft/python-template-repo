@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Data-Preprocessor: All sources",
+            "name": "Python Template Repo Debug",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/src/__main__.py",
-            "cwd": "${workspaceFolder}/src/",
+            "program": "${workspaceFolder}/src/python_template_repo/__main__.py",
+            "cwd": "${workspaceFolder}/src/python_template_repo/",
             "console": "integratedTerminal",
             "args": [
                 "--environment", "dev",

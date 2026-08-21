@@ -1,15 +1,17 @@
 [project]
-    name = "data_preprocessor"
+    name = "python_template_repo"
     version = "0.1.0"
-    description = "The Data Processor"
+    description = "Python Template Repo"
     authors = [
         {name = "J. van Nijnatten"},
     ]
     readme = "README.md"
     license = "MIT"
+    license-files = [
+        "LICENSE",
+    ]
     requires-python = ">=3.14"
     classifiers = [
-        "License :: Osi Approved :: MIT License",
         "Operating System :: OS Independent",
         "Private :: Do Not Upload",
         "Programming Language :: Python :: 3.14",
@@ -40,8 +42,11 @@
         "pytest-mock==3.15.1",
 ]
 
+[project.scripts]
+    python-template-repo = "python_template_repo:main"
+
 [build-system]
-    requires = ["uv_build>=0.9.11,<0.10.0"]
+    requires = ["uv_build>=0.12.5,<0.13"]
     build-backend = "uv_build"
 
 [tool.uv]

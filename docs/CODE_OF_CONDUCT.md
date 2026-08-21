@@ -1,4 +1,4 @@
-# Code of Conduct - Data Preprocessor
+# Code of Conduct - Python Template Repo
 
 ## Our Pledge
 

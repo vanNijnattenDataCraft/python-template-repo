@@ -83,7 +83,7 @@ wheels = [
 ]
 
 [[package]]
-name = "data-preprocessor"
+name = "python_template_repo"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
